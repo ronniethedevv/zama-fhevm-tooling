@@ -60,9 +60,20 @@ This skill is deliberately narrow. It does not cover confidential token transfer
 
 It is also honest about the boundary of FHE itself: encryption happens client-side, so whoever runs the tool that encrypts the data sees the plaintext first. fhEVM hides the value from the contract, the chain, and every other party, but not from the encrypting client. The skill carries this framing so the agent does not oversell the privacy guarantee.
 
+## About Zama and fhEVM
+
+This skill builds on Zama's fhEVM, a framework for confidential smart contracts using fully homomorphic encryption.
+
+- [Zama](https://www.zama.org) - the company building FHE tooling
+- [Zama documentation](https://docs.zama.org) - official protocol and developer docs
+- [fhEVM on GitHub](https://github.com/zama-ai/fhevm) - the fhEVM framework source
+- [Zama community](https://community.zama.org) - developer forum and support
+
+This is an independent, community-built skill. It is not an official Zama product.
+
 ## Sources
 
-The technical content is drawn from the official Zama documentation and the Zama documentation assistant. Cost figures and network details change over time. Verify the HCU figures in cost-and-limits.md and the network details in network-setup.md against current Zama docs before any production deployment.
+The technical content is drawn from the official [Zama documentation](https://docs.zama.org) and the Zama documentation assistant. Cost figures and network details change over time. Verify the HCU figures in cost-and-limits.md and the network details in network-setup.md against current Zama docs before any production deployment.
 
 ## License
 
